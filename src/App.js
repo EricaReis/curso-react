@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Course from './components/Course';
+import MyForm from './MyForm';
 
 class App extends Component {
 
@@ -43,6 +44,7 @@ class App extends Component {
             state.courses.map(course => <Course course={course} onRemove={this.remove}/>)
           }
         </ul>
+        <MyForm />
       </div>
     );
   }
