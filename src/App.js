@@ -3,6 +3,7 @@ import './App.css';
 
 import Course from './components/Course';
 import MyForm from './MyForm';
+import MyForm2 from './MyForm2';
 
 class App extends Component {
 
@@ -45,6 +46,8 @@ class App extends Component {
           }
         </ul>
         <MyForm />
+        <hr />
+        <MyForm2 />
       </div>
     );
   }
